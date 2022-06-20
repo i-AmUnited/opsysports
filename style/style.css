@@ -1,0 +1,310 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Nunito";
+}
+
+.hero {
+  background-image: url(../media/hero_img_2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-2 {
+  background-image: url(../media/hero_img.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.hero-3 {
+  background-image: linear-gradient(to top, #00000090, #00000090),
+    url(../media/hero_img_3.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.hero-4 {
+  background-image: linear-gradient(to top, #00000090, #00000090),
+    url(../media/hero_img_6.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.hero-5 {
+  background-image: linear-gradient(to top, #00000090, #00000090),
+    url(../media/hero_img_5.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  background-color: #ffffff10;
+}
+
+.heading {
+  position: absolute;
+  top: 40%;
+  bottom: 40%;
+}
+
+.heading-2 {
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+}
+
+.logo-name {
+  font-family: "cocogoose";
+  text-decoration: none;
+  color: white;
+}
+
+.scroll {
+  display: grid;
+  gap: 10px;
+  grid-auto-flow: column;
+  grid-auto-columns: 300px;
+  overflow-x: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.service {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+}
+
+.service-2 {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+}
+
+.service-3 {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-3.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 150px;
+}
+
+.service-4 {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-4.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 150px;
+}
+
+.service-5 {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-7.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 150px;
+}
+
+.service-6 {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-6.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 150px;
+}
+
+.service-7 {
+  background-image: linear-gradient(to bottom, #00000050, #000000),
+    url(../media/service-5.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 150px;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  padding: 0px;
+  border: 0px;
+}
+
+.botin {
+  background-color: #3298db;
+  text-decoration: none;
+  color: white;
+  outline: 3px solid #3298db30;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.botin-white {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  outline: 3px solid #ffffff30;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.botin:hover {
+  background-color: #3298db30;
+  text-decoration: none;
+  color: #3298db;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.botin-white:hover {
+  background-color: #3298db30;
+  text-decoration: none;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fs-16 {
+  color: #00000050;
+  font-size: 16px;
+}
+
+.profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.connect {
+  background-image: url(../media/field_1.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  object-position: center;
+  color: #ffffff;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.chat {
+  color: #3298db;
+  text-decoration: none;
+}
+
+.chat:hover {
+  color: #3298db;
+  text-decoration: underline;
+}
+
+.quote {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../media/ronaldo-quote.jpg");
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+}
+
+.player-profile {
+  outline: 3px solid #3298db30;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* player images */
+.player-1 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/mbappe.jpeg");
+}
+
+.player-2 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/mbappe.jpeg");
+}
+
+.player-3 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/mbappe.jpeg");
+}
+
+.player-4 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/mbappe.jpeg");
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+}
+
+/* staff */
+.team-1 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/opeyemi_lawal.JPG");
+}
+
+.team-2 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/samuel.jpg");
+}
+
+.team-3 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/bernard.jpg");
+}
+
+.team-4 {
+  background-image: linear-gradient(to bottom, #00000005, #000000),
+    url("../media/zsombor.jpg");
+}
+
+.scroll-down {
+  width: 50px;
+  border-radius: 10px;
+  opacity: 50%;
+}
+
+.gallery-img {
+  height: 250px;
+  object-fit: cover;
+  outline: 3px solid #3298db30;
+}
